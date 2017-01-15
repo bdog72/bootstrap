@@ -3,7 +3,7 @@
 <head lang="en">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./styles/css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./styles/css/bootstrap.css"> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -123,12 +123,50 @@
   </div>
 </div>
 </div><br>
-<div class="container">
-  <div class="jumbotron">
+
+
+<div id="theCarousel" class="carousel slide" data-ride='carousel'>
+  <ol class="carousel-indicators">
+    <li data-target='#theCarousel' data-slide-to='0' class="active"></li>
+    <li data-target='#theCarousel' data-slide-to='1'></li>
+    <li data-target='#theCarousel' data-slide-to='2'></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item-active">
+    <div class="slide1"></div>
+    <div class="carousel-caption">
+      <h1>Amazing Backgrounds</h1>
+        <p>Thousands of backgrounds for free</p>
+        <p><a href='#' class='btn btn-primary btn-sm'>Get Them Now</a></p>
+      </div>
+    </div>
+
+    <div class="item">
+    <div class="slide2"></div>
+    <div class="carousel-caption">
+      <h1>Thousands of colors</h1>
+        <p>Every color you can imagine</p>
+    </div>
+    </div>
+
+    <div class="item">
+    <div class="slide3"></div>
+    <div class="carousel-caption">
+      <h1>Amazing Illustration</h1>
+        <p>And they all are free</p>
+    </div>
+    </div>
 
   </div>
-
+    <a class='left carousel-control' href="#theCarousel" data-slide='prev'>
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class='right carousel-control' href="#theCarousel" data-slide='prev'>
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
 </div>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
